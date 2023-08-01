@@ -1,1 +1,35 @@
 /* Write your CSS here! */
+
+/* div {
+    width: 300px;
+    padding: 300px;
+    box-sizing: border-box;
+  } */
+
+p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  p {
+    background-color: white;
+  }
+
+body {
+    background-color: #fefbd8;
+  }
+  
+  h1 {
+    background-color: #80ced6;
+  }
+  
+  div {
+    background-color: #d5f4e6;
+  }
+  
+  span {
+    background-color: #f18973;
+  }
+
