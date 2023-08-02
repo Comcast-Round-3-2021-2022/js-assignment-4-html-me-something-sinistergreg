@@ -1,5 +1,19 @@
 /* Write your CSS here! */
 
+
+header {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
 /* 1a. margin */
 
 p {
@@ -12,6 +26,7 @@ p {
 /* 1.b padding */
 
 h2 {
+    text-align: center;
     padding-top: 30px;
     padding-right: 20px;
     padding-bottom: 5cap;
@@ -20,16 +35,20 @@ h2 {
 
    /* 2a. element  */
   
-  p {
+   p {
+    text-align: center;
     background-color: white;
+    font-size: 25px;
+    color: green
   }
 
 /* 3.a body element, a margin value of 8px, and a display type of block */
 
 body {
+    text-align: center;
     background-color: #fefbd8;
-    margin: 8px;
-    display: block; 
+    display: block;
+    margin: 8px; 
   }
 
   /* 2b. class */
@@ -57,15 +76,33 @@ body {
     font-size: 45px;
   }
 
+  main {
+    text-align: center;
+    style="color:green;"
+  }
+
+
+
   /* 3.c  */
 
-p.funParagraph { 
+ #testP { 
     color: green;
     font-size: 25px;
   }
 
-  #testP {
-    color: green;
+  figcaption {
     font-size: 25px;
-}
+  }
 
+  article {
+    text-align: center;
+  }
+
+  img {
+    text-align: center;
+  }
+
+footer {
+    font: var(--accent-small);
+    margin: 25px 0px;
+}
